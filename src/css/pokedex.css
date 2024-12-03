@@ -12,7 +12,7 @@
    margin: 0.5rem;
    padding: 1rem;
    border-radius: 1rem;
-   background-color: #49d0b0;
+   /* background-color: #49d0b0; */
    color: #ffffff;
 }
 
@@ -78,7 +78,7 @@
 
 @media screen and (min-width: 380px) {
    .pokemons {
-       grid-template-columns: 1fr 1fr;
+       grid-template-columns: 1fr 1fr 1fr;
    }
 }
 
@@ -90,6 +90,6 @@
 
 @media screen and (min-width: 992px) {
    .pokemons {
-       grid-template-columns: 1fr 1fr 1fr 1fr;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    }
 }
